@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "PORT=3000 deno run -A index.ts",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    }
+  }
+}
