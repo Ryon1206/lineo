@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "deno run -A index.ts",
+      "runAtStart": true,
+      "preview": {
+        "port": 8000
+      }
+    }
+  }
+}
